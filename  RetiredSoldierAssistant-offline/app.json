@@ -1,14 +1,55 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/policy/policy",
+        "pages/jobs/jobs",
+        "pages/careers/careers",
+        "pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#6E8B3D",
+        "navigationBarTitleText": "退役大学生士兵助手",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#FFFFFF",
+        "selectedColor": "#FFFFFF",
+        "backgroundColor": "#6E8B3D",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/home.png",
+                "selectedIconPath": "icon/home.png"
+            },
+            {
+                "pagePath": "pages/policy/policy",
+                "text": "政策文件",
+                "iconPath": "icon/policy.png",
+                "selectedIconPath": "icon/policy.png"
+            },
+            {
+                "pagePath": "pages/jobs/jobs",
+                "text": "安置和工作",
+                "iconPath": "icon/jobs.png",
+                "selectedIconPath": "icon/jobs.png"
+            },
+            {
+                "pagePath": "pages/careers/careers",
+                "text": "升学相关",
+                "iconPath": "icon/careers.png",
+                "selectedIconPath": "icon/careers.png"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "关于",
+                "iconPath": "icon/about.png",
+                "selectedIconPath": "icon/about.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }
